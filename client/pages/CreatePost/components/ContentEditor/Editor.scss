@@ -1,0 +1,23 @@
+.editor-wrapper {
+  display: flex;
+
+  .quill {
+    flex: 1;
+
+    .ql-container {
+      height: 300px;
+    }
+  }
+
+  .editor-display {
+    flex: 1;
+    padding: 20px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
